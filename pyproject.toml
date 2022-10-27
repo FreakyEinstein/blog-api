@@ -10,6 +10,10 @@ packages = [{include = "blog_api"}]
 python = "^3.8"
 fastapi = "^0.85.1"
 uvicorn = "^0.19.0"
+python-dotenv = "^0.21.0"
+pymongo = "^4.3.2"
+motor = "^3.1.1"
+flake8 = "^5.0.4"
 
 
 [build-system]
