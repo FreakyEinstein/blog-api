@@ -1,24 +1,27 @@
 [tool.poetry]
 name = "blog-api"
-version = "0.1.0"
-description = ""
+version = "1.0.0"
+description = "Blog API"
 authors = ["Nanda <nandakrishnak1999@gmail.com>"]
-readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
 fastapi = "^0.100.0"
 uvicorn = {extras = ["standard"], version = "^0.23.0"}
 motor = "^3.2.0"
+bcrypt = "^4.0.1"
 pydantic-settings = "^2.0.2"
 pyjwt = "^2.7.0"
+redis = "^4.6.0"
+python-multipart = "^0.0.6"
+minio = "^7.1.15"
 aiohttp = "^3.8.4"
+
 
 [tool.poetry.dev-dependencies]
 flake8 = "^4.0.1"
 autopep8 = "^1.6.0"
 
-
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=1.5.0"]
 build-backend = "poetry.core.masonry.api"
